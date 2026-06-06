@@ -438,3 +438,12 @@ font-size:.95rem;
 color:#fbbf24;
 font-weight:600;
 }
+#skills .project-card{
+text-align:center;
+}
+
+#skills .project-card p{
+margin-top:10px;
+color:#fbbf24;
+font-weight:600;
+}
