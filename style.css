@@ -418,3 +418,17 @@ height:140px;
 }
 
 }
+#specializing{
+text-align:center;
+}
+
+#specializing .project-card{
+min-height:180px;
+display:flex;
+flex-direction:column;
+justify-content:center;
+}
+
+#specializing h3{
+font-size:1.2rem;
+}
