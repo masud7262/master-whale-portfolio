@@ -252,3 +252,32 @@ margin:auto;
 margin-bottom:25px;
 opacity:.9;
 }
+.socials a{
+display:inline-flex;
+align-items:center;
+justify-content:center;
+min-width:140px;
+font-weight:bold;
+border:1px solid rgba(255,255,255,.1);
+box-shadow:0 0 10px rgba(0,212,255,.15);
+}
+
+.socials a:nth-child(1):hover{
+box-shadow:0 0 20px #00d4ff;
+}
+
+.socials a:nth-child(2):hover{
+box-shadow:0 0 20px #8b5cf6;
+}
+
+.socials a:nth-child(3):hover{
+box-shadow:0 0 20px #fbbf24;
+}
+
+.socials a:nth-child(4):hover{
+box-shadow:0 0 20px #0ea5e9;
+}
+
+.socials a:nth-child(5):hover{
+box-shadow:0 0 20px #22c55e;
+                         }
