@@ -353,3 +353,41 @@ to{
 transform:translate(-120px,-80px);
 }
 }
+.project-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:25px;
+margin-top:30px;
+}
+
+.project-card{
+background:rgba(255,255,255,.05);
+backdrop-filter:blur(15px);
+padding:25px;
+border-radius:20px;
+border:1px solid rgba(255,255,255,.08);
+transition:.35s;
+}
+
+.project-card:hover{
+transform:translateY(-8px);
+box-shadow:
+0 0 20px rgba(0,212,255,.4),
+0 0 40px rgba(139,92,246,.2);
+}
+
+.project-card h3{
+color:#00d4ff;
+margin-bottom:10px;
+}
+
+.project-card h4{
+color:#fbbf24;
+margin-bottom:12px;
+font-weight:600;
+}
+
+.project-card p{
+line-height:1.6;
+opacity:.9;
+}
