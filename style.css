@@ -66,8 +66,11 @@ margin-bottom:20px;
 .hero h1{
 font-size:4rem;
 margin-bottom:10px;
+background:linear-gradient(90deg,#00d4ff,#8b5cf6,#fbbf24);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+text-shadow:0 0 30px rgba(139,92,246,.5);
 }
-
 .typing{
 color:#00d4ff;
 font-size:1.5rem;
@@ -301,4 +304,49 @@ transition:.3s;
 .footer-links a:hover{
 background:#00d4ff;
 color:black;
+}
+body::before{
+content:"";
+position:fixed;
+width:350px;
+height:350px;
+background:#00d4ff;
+filter:blur(150px);
+opacity:.15;
+top:-100px;
+left:-100px;
+z-index:-1;
+animation:float1 12s infinite alternate;
+}
+
+body::after{
+content:"";
+position:fixed;
+width:350px;
+height:350px;
+background:#8b5cf6;
+filter:blur(150px);
+opacity:.15;
+bottom:-100px;
+right:-100px;
+z-index:-1;
+animation:float2 12s infinite alternate;
+}
+
+@keyframes float1{
+from{
+transform:translate(0,0);
+}
+to{
+transform:translate(120px,80px);
+}
+}
+
+@keyframes float2{
+from{
+transform:translate(0,0);
+}
+to{
+transform:translate(-120px,-80px);
+}
 }
