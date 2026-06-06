@@ -233,3 +233,22 @@ text-shadow:0 0 15px #fbbf24;
 .stats-grid p{
 opacity:.9;
 }
+#collab{
+text-align:center;
+padding:70px 10%;
+background:rgba(255,255,255,.03);
+border-radius:20px;
+margin:40px 10%;
+border:1px solid rgba(255,255,255,.1);
+}
+
+#collab h2{
+margin-bottom:15px;
+}
+
+#collab p{
+max-width:700px;
+margin:auto;
+margin-bottom:25px;
+opacity:.9;
+}
