@@ -44,32 +44,36 @@ color:#00d4ff;
 }
 
 .hero{
-min-height:100vh;
+min-height:75vh;
 display:flex;
 flex-direction:column;
 justify-content:center;
 align-items:center;
 text-align:center;
-padding:30px;
+padding-top:60px;
+padding-bottom:40px;
+padding-left:20px;
+padding-right:20px;
 }
 
 .profile-img{
-width:180px;
-height:180px;
+width:170px;
+height:170px;
 border-radius:50%;
 object-fit:cover;
 border:4px solid #00d4ff;
-box-shadow:0 0 25px #00d4ff;
-margin-bottom:20px;
+box-shadow:
+0 0 25px #00d4ff,
+0 0 50px rgba(0,212,255,.4);
+margin-bottom:15px;
 }
 
 .hero h1{
-font-size:4rem;
-margin-bottom:10px;
+font-size:3.2rem;
+margin-bottom:8px;
 background:linear-gradient(90deg,#00d4ff,#8b5cf6,#fbbf24);
 -webkit-background-clip:text;
 -webkit-text-fill-color:transparent;
-text-shadow:0 0 30px rgba(139,92,246,.5);
 }
 
 .typing{
@@ -81,7 +85,9 @@ margin-bottom:15px;
 
 .subtitle{
 opacity:.9;
-margin-bottom:25px;
+margin-bottom:20px;
+font-size:1rem;
+max-width:700px;
 }
 
 .btn{
@@ -390,4 +396,25 @@ font-weight:600;
 .project-card p{
 line-height:1.6;
 opacity:.9;
+}
+@media(max-width:768px){
+
+.hero{
+min-height:65vh;
+padding-top:40px;
+}
+
+.hero h1{
+font-size:2.4rem;
+}
+
+.typing{
+font-size:1.1rem;
+}
+
+.profile-img{
+width:140px;
+height:140px;
+}
+
 }
