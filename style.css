@@ -447,3 +447,13 @@ margin-top:10px;
 color:#fbbf24;
 font-weight:600;
 }
+#cta{
+text-align:center;
+padding:80px 10%;
+}
+
+#cta p{
+max-width:700px;
+margin:20px auto;
+opacity:.9;
+}
