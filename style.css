@@ -457,3 +457,10 @@ max-width:700px;
 margin:20px auto;
 opacity:.9;
 }
+.hero-intro{
+max-width:700px;
+margin:15px auto;
+opacity:.9;
+line-height:1.7;
+font-size:1rem;
+}
